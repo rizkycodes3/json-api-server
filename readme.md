@@ -19,11 +19,7 @@ A simple JSON API server built with **Node.js** using its built-in `http`, `fs`,
   - `path` — builds file paths.
   - `url` — parses request URLs and query parameters.
 
-No third-party dependencies are shown in the provided `server.js`.
-
 ## Project Structure
-
-The server expects the following data files to exist:
 
 ```text
 project-root/
@@ -32,8 +28,6 @@ project-root/
     ├── users.json
     └── posts.json
 ```
-
-`users.json` should contain a JSON array of user objects, and `posts.json` should contain a JSON array of post objects. Each object is expected to have a numeric `id` field because the server uses that field to find individual records.
 
 ## Getting Started
 
