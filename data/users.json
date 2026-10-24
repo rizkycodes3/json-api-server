@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Alya Putri",
+    "username": "alyaputri",
+    "email": "alya.putri@example.com",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-01-12T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Bima Pratama",
+    "username": "bimapratama",
+    "email": "bima.pratama@example.com",
+    "role": "admin",
+    "isActive": true,
+    "createdAt": "2026-01-15T10:15:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Citra Lestari",
+    "username": "citralestari",
+    "email": "citra.lestari@example.com",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-02-02T13:45:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Daffa Ramadhan",
+    "username": "daffaramadhan",
+    "email": "daffa.ramadhan@example.com",
+    "role": "user",
+    "isActive": false,
+    "createdAt": "2026-02-11T06:20:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Eka Wulandari",
+    "username": "ekawulandari",
+    "email": "eka.wulandari@example.com",
+    "role": "moderator",
+    "isActive": true,
+    "createdAt": "2026-03-08T09:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Farhan Akbar",
+    "username": "farhanakbar",
+    "email": "farhan.akbar@example.com",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-03-14T15:10:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Gita Maharani",
+    "username": "gitamaharani",
+    "email": "gita.maharani@example.com",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-04-01T11:25:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Hendra Saputra",
+    "username": "hendrasaputra",
+    "email": "hendra.saputra@example.com",
+    "role": "user",
+    "isActive": false,
+    "createdAt": "2026-04-19T07:40:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Intan Permata",
+    "username": "intanpermata",
+    "email": "intan.permata@example.com",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-05-06T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Joko Firmansyah",
+    "username": "jokofirmansyah",
+    "email": "joko.firmansyah@example.com",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-05-21T14:35:00Z"
+  }
+]

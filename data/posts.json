@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "title": "Getting Started with Node.js",
+    "body": "Node.js lets developers build server-side applications with JavaScript. Start with the built-in modules and learn how requests and responses work.",
+    "tags": [
+      "nodejs",
+      "javascript",
+      "backend"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-01T08:00:00Z",
+    "updatedAt": "2026-06-01T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "title": "A Practical Guide to REST APIs",
+    "body": "A REST API exposes resources through predictable URLs and HTTP methods. Keep responses consistent and return meaningful status codes.",
+    "tags": [
+      "api",
+      "rest",
+      "backend"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-02T09:30:00Z",
+    "updatedAt": "2026-06-03T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "title": "Why I Started Learning React",
+    "body": "React makes it easier to build interactive interfaces from reusable components. Practicing small components is a good way to learn its core concepts.",
+    "tags": [
+      "react",
+      "frontend",
+      "javascript"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-04T12:15:00Z",
+    "updatedAt": "2026-06-04T12:15:00Z"
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "title": "My First API Project",
+    "body": "I built a small API with routes for users and posts. The next step is adding validation and handling errors consistently.",
+    "tags": [
+      "project",
+      "api",
+      "learning"
+    ],
+    "status": "draft",
+    "createdAt": "2026-06-05T07:45:00Z",
+    "updatedAt": "2026-06-07T08:20:00Z"
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "title": "Understanding HTTP Status Codes",
+    "body": "Status codes communicate the outcome of a request. For example, 200 means success, 201 means a resource was created, and 404 means the resource was not found.",
+    "tags": [
+      "http",
+      "web",
+      "backend"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-07T14:00:00Z",
+    "updatedAt": "2026-06-07T14:00:00Z"
+  },
+  {
+    "id": 6,
+    "userId": 6,
+    "title": "Useful JavaScript Array Methods",
+    "body": "Methods such as map, filter, find, and reduce help transform and query data without writing repetitive loops.",
+    "tags": [
+      "javascript",
+      "tips"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-09T10:10:00Z",
+    "updatedAt": "2026-06-10T11:00:00Z"
+  },
+  {
+    "id": 7,
+    "userId": 7,
+    "title": "How I Organize a Small Backend",
+    "body": "Separating routes, controllers, and data access can make a growing project easier to understand and maintain.",
+    "tags": [
+      "architecture",
+      "nodejs",
+      "backend"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-10T16:30:00Z",
+    "updatedAt": "2026-06-10T16:30:00Z"
+  },
+  {
+    "id": 8,
+    "userId": 8,
+    "title": "Learning Git One Command at a Time",
+    "body": "Git becomes less intimidating when you practice a small set of commands and understand what each command changes.",
+    "tags": [
+      "git",
+      "tools",
+      "learning"
+    ],
+    "status": "archived",
+    "createdAt": "2026-06-12T06:50:00Z",
+    "updatedAt": "2026-07-01T09:00:00Z"
+  },
+  {
+    "id": 9,
+    "userId": 9,
+    "title": "Simple Ways to Improve API Responses",
+    "body": "Use a predictable response shape, validate input, and avoid returning fields clients do not need.",
+    "tags": [
+      "api",
+      "best-practices"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-14T13:20:00Z",
+    "updatedAt": "2026-06-14T13:20:00Z"
+  },
+  {
+    "id": 10,
+    "userId": 10,
+    "title": "What I Learned from Debugging",
+    "body": "Reading the full error message and reproducing a bug with the smallest possible example often makes debugging faster.",
+    "tags": [
+      "debugging",
+      "learning"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-16T08:40:00Z",
+    "updatedAt": "2026-06-16T08:40:00Z"
+  },
+  {
+    "id": 11,
+    "userId": 1,
+    "title": "Async and Await in Practice",
+    "body": "Async and await let you write promise-based code in a readable style. Remember to handle rejected promises where appropriate.",
+    "tags": [
+      "javascript",
+      "async",
+      "nodejs"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-18T11:05:00Z",
+    "updatedAt": "2026-06-18T11:05:00Z"
+  },
+  {
+    "id": 12,
+    "userId": 3,
+    "title": "Choosing Clear Variable Names",
+    "body": "Names that describe intent reduce the effort required to understand code. Prefer clarity over unnecessary abbreviations.",
+    "tags": [
+      "clean-code",
+      "javascript"
+    ],
+    "status": "draft",
+    "createdAt": "2026-06-19T15:45:00Z",
+    "updatedAt": "2026-06-20T09:10:00Z"
+  },
+  {
+    "id": 13,
+    "userId": 5,
+    "title": "Filtering Data with Query Parameters",
+    "body": "Query parameters are useful for filters such as status, search terms, and page numbers. Validate them before using them.",
+    "tags": [
+      "api",
+      "query-params"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-21T07:30:00Z",
+    "updatedAt": "2026-06-21T07:30:00Z"
+  },
+  {
+    "id": 14,
+    "userId": 2,
+    "title": "The Importance of Input Validation",
+    "body": "Treat incoming request data as untrusted. Check required fields, data types, and allowed values before processing a request.",
+    "tags": [
+      "security",
+      "validation",
+      "backend"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-23T12:00:00Z",
+    "updatedAt": "2026-06-24T12:30:00Z"
+  },
+  {
+    "id": 15,
+    "userId": 6,
+    "title": "Building a Pagination Endpoint",
+    "body": "Pagination helps clients request manageable slices of a collection instead of downloading every record at once.",
+    "tags": [
+      "api",
+      "pagination"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-25T09:25:00Z",
+    "updatedAt": "2026-06-25T09:25:00Z"
+  },
+  {
+    "id": 16,
+    "userId": 7,
+    "title": "Environment Variables for Local Development",
+    "body": "Configuration such as port numbers can be supplied through environment variables. Avoid committing secrets to source control.",
+    "tags": [
+      "nodejs",
+      "configuration"
+    ],
+    "status": "published",
+    "createdAt": "2026-06-27T14:15:00Z",
+    "updatedAt": "2026-06-27T14:15:00Z"
+  },
+  {
+    "id": 17,
+    "userId": 9,
+    "title": "A Checklist Before Shipping an API",
+    "body": "Test success and failure cases, validate input, choose suitable status codes, and document the expected response format.",
+    "tags": [
+      "testing",
+      "api",
+      "checklist"
+    ],
+    "status": "draft",
+    "createdAt": "2026-06-29T10:55:00Z",
+    "updatedAt": "2026-06-30T08:10:00Z"
+  },
+  {
+    "id": 18,
+    "userId": 10,
+    "title": "Understanding Middleware",
+    "body": "Middleware can inspect or modify requests and responses, perform authentication, and pass control to the next handler.",
+    "tags": [
+      "middleware",
+      "express",
+      "backend"
+    ],
+    "status": "published",
+    "createdAt": "2026-07-02T06:35:00Z",
+    "updatedAt": "2026-07-02T06:35:00Z"
+  },
+  {
+    "id": 19,
+    "userId": 4,
+    "title": "My Weekly Coding Routine",
+    "body": "I make progress by choosing one focused topic, building a small example, and writing down what I still do not understand.",
+    "tags": [
+      "habits",
+      "learning"
+    ],
+    "status": "published",
+    "createdAt": "2026-07-04T13:10:00Z",
+    "updatedAt": "2026-07-04T13:10:00Z"
+  },
+  {
+    "id": 20,
+    "userId": 8,
+    "title": "When to Return a 400 or 404",
+    "body": "A 400 response generally indicates an invalid request, while 404 indicates that the requested resource could not be found.",
+    "tags": [
+      "http",
+      "api",
+      "status-codes"
+    ],
+    "status": "archived",
+    "createdAt": "2026-07-06T16:00:00Z",
+    "updatedAt": "2026-07-09T09:45:00Z"
+  }
+]
