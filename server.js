@@ -11,7 +11,8 @@ const readJsonFile = (filePath) => {
   try {
     return fs.readFileSync(filePath, { encoding: "utf8" });
   } catch (err) {
-    console.error("Failed to read the file", err);
+    console.error(`Error reading file from disk: ${err}`);
+    return null;
   }
 };
 
@@ -31,18 +32,18 @@ const server = http.createServer((req, res) => {
           const userId = parseInt(queryParams.id);
           const user = userData.find((x) => x.id === userId);
           if (user) {
-            res.StatusCode = 200;
+            res.statusCode = 200;
             res.end(JSON.stringify(user));
           } else {
-            res.StatusCode = 404;
+            res.statusCode = 404;
             res.end(JSON.stringify({ error: "User not found" }));
           }
         } else {
-          res.StatusCode = 200;
+          res.statusCode = 200;
           res.end(JSON.stringify(userData));
         }
       } else {
-        res.StatusCode = 500;
+        res.statusCode = 500;
         res.end(JSON.stringify({ error: "Could not retrieve user data" }));
       }
       break;
@@ -53,20 +54,45 @@ const server = http.createServer((req, res) => {
           const postId = parseInt(queryParams.id);
           const post = postData.find((x) => x.id === postId);
           if (post) {
-            res.StatusCode = 200;
+            res.statusCode = 200;
             res.end(JSON.stringify(post));
           } else {
-            res.StatusCode = 404;
+            res.statusCode = 404;
             res.end(JSON.stringify({ error: "Post not found" }));
           }
         } else {
-          res.StatusCode = 200;
+          res.statusCode = 200;
           res.end(JSON.stringify(postData));
         }
       } else {
-        res.StatusCode = 500;
+        res.statusCode = 500;
         res.end(JSON.stringify({ error: "Could not retrieve post data" }));
       }
+      break;
+    case "status":
+      const uptime = process.uptime();
+      const status = {
+        status: "online",
+        timestamp: new Date().toISOString(),
+        uptime,
+        memory: process.memoryUsage(),
+        cpu: process.cpuUsage(),
+        node_version: process.version,
+        routes: ["/users", "/posts", "/status"],
+      };
+      res.statusCode = 200;
+      res.end(JSON.stringify(status));
+      break;
+    default:
+      const endPoints = {
+        endpoint: [
+          { path: "/users", description: "Get all users or a specific user by ID", method: "GET" },
+          { path: "/posts", description: "Get all posts or a specific post by ID", method: "GET" },
+          { path: "/status", description: "Get server status information", method: "GET" },
+        ],
+      };
+      res.statusCode = 200;
+      res.end(JSON.stringify(endPoints));
       break;
   }
 });
